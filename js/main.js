@@ -35,7 +35,7 @@ for(let btn of packageBtns){
                     const latitude = location.coords.latitude
                     const longitude = location.coords.longitude
                     userDistance = calcDistanceUsingLatAndLon(latitude, longitude)
-                    if(userDistance < 1000){
+                    if(userDistance < 21){
                         const packageSelected = e.target.parentNode.parentNode.children[0].textContent
                         window.location.href = `https://wa.me/254712990778/?text=I'm%20inquiring%20about%20the%20${packageSelected}%20package`
                     } else {
