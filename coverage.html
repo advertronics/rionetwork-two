@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio Network | Best Home Wi-Fi</title>
+    <link rel="shortcut icon" type="image/ico" href="./image/favicon.ico"/>
+    <link rel="stylesheet" type="text/css"  href="./css/style.css">
+</head>
+<body>
+    
+        <div class="map-heading">
+            <button>Go back to Main Site</button><h2>Our Coverage</h2>
+        </div>
+        <div id="map">
+            
+        </div>    
+        <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+        <script
+        async
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm-6AuuiG3ubaAPXbXefS8xeC04Fy165s&callback=initMap&libraries=&v=weekly"
+         
+        ></script>
+        <script>
+            let map;
+            const backToMainSite = document.querySelector("button")
+            const heading = document.getElementsByTagName("h2")
+
+            console.log(heading)
+            backToMainSite.addEventListener("click", () => {
+                window.location.href = "index.html"
+            })
+
+            function initMap() {    
+                    map = new google.maps.Map(document.getElementById("map"), {
+                        center: { lat: -1.2709, lng: 36.6472 },
+                        zoom: 12,
+                    }); 
+                    const marker = new google.maps.Marker({
+                        position: { lat: -1.2709, lng: 36.6472 },
+                        map: map,
+                    });
+                    const coverageCircle = new google.maps.Circle({
+                        strokeColor: "#ff0000",
+                        strokeOpacity: 0.8,
+                        strokeWeight: 2,
+                        fillColor: "#ff0000",
+                        fillOpacity: 0.35,
+                        map: map,
+                        center: { lat: -1.2709, lng: 36.6472 },
+                        radius: 10000
+                    })
+            }
+
+
+        </script>
+</body>
+</html>

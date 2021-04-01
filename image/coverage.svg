@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="181.87395mm"
+   height="64.008423mm"
+   viewBox="0 0 181.87395 64.008423"
+   version="1.1"
+   id="svg1917"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="coverage.svg">
+  <defs
+     id="defs1911" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="337.98454"
+     inkscape:cy="184.57992"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     lock-margins="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1267"
+     inkscape:window-height="728"
+     inkscape:window-x="52"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1914">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-16.408258,-99.329896)">
+    <g
+       id="g3873-8"
+       transform="matrix(0.92807503,0,0,0.92807503,-944.16366,132.86273)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ee5512;stroke-width:1.6199;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1174-3"
+         width="194.34911"
+         height="67.349113"
+         x="1035.8253"
+         y="-35.321648"
+         ry="12.171526" />
+      <path
+         id="XMLID_839_-5"
+         d="m 1067.4649,-2.830091 c -5.6014,-2.6145 -12.2855,-0.1845 -14.9,5.4169 -2.6144,5.6013 -0.1844,12.2854 5.4169,14.8999 4.6848,2.1867 10.1265,0.844 13.3118,-2.9308 l 9.6263,4.4932 c 1.4636,0.6831 3.2039,0.05 3.887,-1.4131 0.6831,-1.4635 0.05,-3.2038 -1.4131,-3.887 l -9.6264,-4.4932 c 0.8479,-4.8658 -1.6177,-9.8992 -6.3025,-12.0859 z m -8.2462,17.6668 c -4.1401,-1.9324 -5.9362,-6.8729 -4.0037,-11.013 1.9324,-4.1401 6.8728,-5.9362 11.013,-4.0038 4.1401,1.9324 5.9362,6.8729 4.0038,11.013 -1.9325,4.1402 -6.8729,5.9362 -11.0131,4.0038 z"
+         style="fill:#ee5512;fill-opacity:1;stroke-width:0.0974828" />
+      <g
+         id="g2449-7">
+        <path
+           style="fill:#0b72f5;fill-opacity:1;stroke:#ee5512;stroke-width:0.980573;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 1063.4241,5.5334016 c 19.0454,-16.0745336 4.6919,-24.9900216 -0.6905,-24.2876086 -9.1895,1.199233 -14.5366,12.8710948 0.6905,24.2876086 z"
+           id="path1157-3"
+           sodipodi:nodetypes="csc" />
+        <circle
+           style="fill:#ee5512;fill-opacity:1;stroke:#ff0000;stroke-width:0.0549324;stroke-opacity:1"
+           id="path1159-2"
+           cx="1063.274"
+           cy="-9.0290422"
+           r="5.8001156" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:21.4456px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#ee5512;fill-opacity:1;stroke:none;stroke-width:0.536141"
+         x="1155.7622"
+         y="-7.2755117"
+         id="text1178-9"><tspan
+           sodipodi:role="line"
+           id="tspan1176-5"
+           x="1155.7622"
+           y="-7.2755117"
+           style="fill:#ee5512;fill-opacity:1;stroke-width:0.536141">CHECK</tspan><tspan
+           sodipodi:role="line"
+           x="1155.7622"
+           y="19.531488"
+           id="tspan1180-0"
+           style="fill:#ee5512;fill-opacity:1;stroke-width:0.536141">COVERAGE</tspan></text>
+    </g>
+  </g>
+</svg>
