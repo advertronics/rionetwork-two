@@ -39,7 +39,13 @@ for(let btn of packageBtns){
                         const packageSelected = e.target.parentNode.parentNode.children[0].textContent
                         window.location.href = `https://wa.me/254722267046/?text=I'm%20inquiring%20about%20the%20${packageSelected}%20package`
                     } else {
-                        alert("You seem to be out of the coverage zone. We cover 20Kms radius from Kikuyu Town. Thanks for your interest")
+                        //alert("You seem to be out of the coverage zone. We cover 20Kms radius from Kikuyu Town. Thanks for your interest")
+                        let a= document.createElement("a")
+                        a.href="coverage.html"
+                        a.textContent="check coverage here"
+                        if(window.confirm(`You seem to be out of the coverage zone. We cover 20Kms radius from Kikuyu Town. Thanks for your interest`)){
+                            a.click()
+                        } 
                     }
                 }          
                  
