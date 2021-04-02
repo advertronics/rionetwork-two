@@ -16,12 +16,12 @@ body{
 h1, h2, h2, h3, h4, p, img, ul, li{
     margin: 0;
 }
-.map-heading{
-    display: grid;
-    grid-template-columns: 12% 80%;
-}
+
 .map-heading h2{
     text-align: center;
+    padding: 1.2rem 0;
+    background: var(--primary-blue);
+    color: var(--white);
 }
 #map {
     height: 100vh;
