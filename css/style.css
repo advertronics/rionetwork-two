@@ -184,7 +184,23 @@ h1, h2, h2, h3, h4, p, img, ul, li{
     outline: none;
     cursor: pointer;
 }
-
+.form-success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 68vh;
+}
+.form-success .success-para{
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    color: var(--site-orange);
+}
+.form-success .success-para a{
+    color: var(--site-orange);
+    text-decoration: none;
+}
 
 #detail-section{
     background: var(--secondary-blue);  
