@@ -184,6 +184,9 @@ h1, h2, h2, h3, h4, p, img, ul, li{
     outline: none;
     cursor: pointer;
 }
+.reg-form form .field{
+    width: 100%;
+}
 .form-success{
     display: flex;
     justify-content: center;
