@@ -68,12 +68,15 @@
                     <p>Submit Details</p>
                     <button data-close-button class="close-button">x</button>
                 </div>
-                <form  action= "/success" netlify>
+                <form  action= "/success" method="POST" netlify>
                     <input type="hidden" name="form-name" value="form 1">
                     <input type="text" class="username" placeholder="Name" name="username"><br>
                     <input type="email" class="email" placeholder="Email Address" name="email"><br>
                     <input type="text" class="phone" placeholder="Phone Number" name="phone"><br>  
-                    <textarea id="message"></textarea>                  
+                    <textarea id="message"></textarea>  
+                    <div class="field">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
                     <input type="submit" value="submit">
                     
                     <div class="field">
